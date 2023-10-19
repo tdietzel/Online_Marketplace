@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Marketplace</title>
+</head>
+<body>
+    <h1>Welcome to the Marketplace!</h1>
+    <form id="checkout">
+        <fieldset>
+            <legend>Select your items below:</legend>
+            <div>
+                <label>
+                  <input type="checkbox" id="necklace" name="necklace"/>
+                  Necklace $10
+                </label>
+            </div>
+            <div>
+                <label>
+                  <input type="checkbox" id="earrings" name="earrings"/>
+                  Earrings $7
+                </label>
+            </div>
+            <div>
+                <label>
+                  <input type="checkbox" id="bracelet" name="bracelet"/>
+                  Bracelet $5
+                </label>
+            </div>
+        </fieldset>
+        <br>
+        <label for="shipping">Shipping</label>
+        <input type="text" id="address">
+        <label for="payment">Payment Info</label>
+        <input type="text" id="payment">
+        <button class="purchased">Buy</button>
+    </form>
+    <p id="reciept"></p>
+</body>
+</html>
